@@ -103,6 +103,7 @@ FROM Supplier;
 
 💡 **Insight:**  
 Almost one-third of suppliers are missing fax numbers, indicating outdated contact records. Labeling them helps take corrective actions.
+
 ---
 
 ### 📦 Q24 – Orders With Product Breakdown
@@ -152,6 +153,7 @@ ON S.Country = C.Country;
 
 💡 **Insight:**  
 This comprehensive match check highlights gaps in supplier-customer presence by country. It aids in identifying underserved markets and optimizing cross-border logistics planning.
+
 ---
 
 ### ⏱️ Q30 – Last Order from Paris vs Overall
@@ -245,6 +247,7 @@ SELECT* FROM Products_View;
 
 💡 **Insight:**  
 This view provides a dynamic list of higher-priced products — useful for premium segmentation, marketing, and pricing strategy comparisons.
+
 ---
 
 ### 🏆 🛠️ Q37 – Stored Procedure to Recreate Product Copy with Supplier Name
